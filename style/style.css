@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: auto;
+  }
+  
+  .col{
+    border: 1px solid black;
+    min-width: 30vw;
+    min-height: 40vh; 
+    margin: 0vh 5vw 0vh 5vw;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .col li{
+    border: 1px solid black;
+    list-style-type: none;
+    min-height: 11vh;
+    min-width: 8vw;
+    margin: 2vh 3vw 2vh 0vw;
+  }
+  
+  .col ul{
+    min-height: auto;
+  }
